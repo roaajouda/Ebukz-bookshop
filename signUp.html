@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login In</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      :root {
+     --theme-color: #D16655;
+    --secondary-color: #BD7579;
+    --title-color: #2E4A5B;
+    --body-color: ;
+    --text-color: #505050;
+    --smoke-color: #F3ECDC;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --yellow-color: #fec624;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --border-color: #e6edfd;
+    --title-font: "Josefin Sans", sans-serif;
+    --body-font: "Poppins", sans-serif;
+    --icon-font: "Font Awesome 6 Pro";
+    --main-container: 1320px;
+    --main-container2: 1760px;
+    --main-container3: 1340px;
+    --main-container4: 1920px;
+    --container-gutters: 30px;
+    --section-space: 80px;
+    --section-space-mobile: 60px;
+    --section-title-space: 60px;
+    --ripple-ani-duration: 5s;
+}
+body {
+    
+    background-color: #F8EBE5;
+}
+.btn {
+    background-color:#D16655;
+    color: white;
+}
+.Fpass,.form-check-label {
+    color: var(--text-color);
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="card shadow-sm border-0">
+            <h1 class="h3 mb-2 mt-5 fw-normal text-center"><img src="./assets/img/dark-logo.svg" alt=""></h1>
+            <div class="card-body p-4 p-md-5">
+              <form>
+                <div class="mb-4">
+                  <input
+                    type="email"
+                    class="form-control form-control-lg"
+                    placeholder="Email address"
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <input
+                    type="password"
+                    class="form-control form-control-lg"
+                    placeholder="Password"
+                  />
+                </div>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mb-4"
+                >
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="rememberMe"
+                    />
+                    <label class="form-check-label" for="rememberMe">
+                      Remember me
+                    </label>
+                  </div>
+                  <a href="#" class="text-decoration-none Fpass">Forgot password?</a>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-lg w-100 mb-4 text-uppercase fw-semibold"
+                >
+                  Log in
+                </button>
+
+                <div class="text-center text-muted mb-4">
+                  <span class="fw-semibold">OR</span>
+                </div>
+
+                <button
+                  type="button"
+                  class="btn btn-lg w-100 mb-3 text-white fw-semibold"
+                  style="background-color: #3b5998"
+                >
+                  CONTINUE WITH FACEBOOK
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-lg w-100 text-white fw-semibold"
+                  style="background-color: #55acee"
+                >
+                  CONTINUE WITH TWITTER
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
