@@ -193,8 +193,8 @@ Product management:
 
 | Name | GitHub Profile |
 |------|----------------|
-| ✨ **Rasha Jouda** | [@Rashajouda](https://github.com/Rashajouda) |
 | 🌸 **Roaa Jouda** | [@roaajouda](https://github.com/roaajouda) |
+| ✨ **Rasha Jouda** | [@Rashajouda](https://github.com/Rashajouda) |
 | 🌼 **Salma Nabil** | [@Salma-Nabil-Afify](https://github.com/Salma-Nabil-Afify) |
 | 💫 **Ahemd Salama**| [@Ahmed-Salamaa](https://github.com/Ahmed-Salamaa) |
 
