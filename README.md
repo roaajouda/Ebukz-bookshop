@@ -154,6 +154,8 @@ Product management:
    git clone <repository-url>
    cd Ebukz-bookshop
    ```
+2.  **View the website**
+   https://roaajouda.github.io/Ebukz-bookshop/
 
 3. **File structure setup**
    - Ensure all image paths in img are correct
