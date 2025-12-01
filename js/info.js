@@ -120,7 +120,7 @@ function updateCartBadge() {
 }
 
 
-const shopCont = document.querySelector(".row.gy-30.mb-40");
+const shopCont = document.querySelector(".row.gy-30.mb-40.shopCont");
 
 function renderBooks() {
   if (!shopCont) return;
