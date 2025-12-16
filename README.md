@@ -43,109 +43,8 @@ Ebukz-bookshop/
     └── product.js             # Product/book management
 ```
 
-## Features
-
-### Pages
-
-1. **index.html** - Landing/Home page
-   - Featured books
-   - Hero section
-   - Navigation
-
-2. **book.html** - Book Details Page
-   - Individual book information
-   - Price, availability, reviews
-   - Add to cart/wishlist functionality
-
-3. **shop.html** - Shop/Browse Books
-   - Book catalog with filters
-   - Search functionality
-   - Category browsing
-
-4. **cart.html** - Shopping Cart
-   - View cart items
-   - Adjust quantities
-   - Checkout process
-
-5. **blog.html** - Blog Listing
-   - Latest articles and posts
-   - Search and filtering
-
-6. **Blog-Details.html** - Individual Blog Post
-   - Full blog post content
-   - Comments section
-   - Related posts
-
-7. **Contact.html** - Contact Page
-   - Contact form
-   - Business information
-   - Communication channels
-
-8. **wishlist.html** - Wishlist
-   - Saved favorite books
-   - Move to cart functionality
-
-9. **signUp.html** - User Registration
-   - Account creation
-   - User authentication
-
-## Styling
-
-The project uses a consistent design system with CSS custom properties (variables) defined in bookDetailes.css:
-
-### Color Scheme
-- **Main Color**: `#D16655` (Coral Red)
-- **Secondary Color**: `#BD7579` (Mauve)
-- **Title Color**: `#2E4A5B` (Dark Blue)
-- **Body Color**: `#F8EBE5` (Cream)
-- **Theme Color**: Dynamic (Blue theme)
-- **Success Color**: `#28a745` (Green)
-- **Error Color**: `#dc3545` (Red)
-
-### Typography
-- **Title Font**: "Josefin Sans", sans-serif
-- **Body Font**: "Poppins", sans-serif
-- **Icon Font**: "Font Awesome 6 Pro"
-
-### Layout Containers
-- `--main-container`: 1320px
-- `--main-container2`: 1760px
-- `--main-container3`: 1340px
-- `--main-container4`: 1920px
-- `--container-gutters`: 30px
-
-## JavaScript Modules
-
-### main.js
-Global functionality including:
-- Navigation handling
-- DOM manipulation
-- Event listeners
-- Utility functions
-
-### booksInfo.js
-Book-related functionality:
-- Book data management
-- Display book information
-- Used on Contact.html and cart.html
-
-### info.js
-General information utilities:
-- Common helper functions
-- Data utilities
-- Used on Contact.html and cart.html
-
-### blog.js
-Blog functionality:
-- Blog post management
-- Comment handling
-- Blog filtering and search
-
-### product.js
-Product management:
-- Product filtering
-- Stock management
-- Product details handling
+## View the website
+   https://roaajouda.github.io/Ebukz-bookshop/
 
 ## Getting Started
 
@@ -154,10 +53,8 @@ Product management:
    git clone <repository-url>
    cd Ebukz-bookshop
    ```
-2.  **View the website**
-   https://roaajouda.github.io/Ebukz-bookshop/
 
-3. **File structure setup**
+2. **File structure setup**
    - Ensure all image paths in img are correct
    - Verify Font Awesome webfonts are properly linked
    - Check JavaScript imports in HTML files
